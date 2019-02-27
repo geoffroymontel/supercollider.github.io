@@ -5,6 +5,10 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: ["README.md", "Rakefile"]
 highlighter: rouge
 
+# sass directory
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
 #
 title: SuperCollider
 tagline: An environment and programming language for real time audio synthesis and algorithmic composition
@@ -14,6 +18,7 @@ author :
   github: supercollider
   twitter:
   feedburner:
+
 
 # for use in index pages etc
 ordered_categories: ["examples", "tutorials", "community", "contributing", "development"]
@@ -87,4 +92,3 @@ JB:
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-

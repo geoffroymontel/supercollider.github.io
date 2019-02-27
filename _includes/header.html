@@ -1,0 +1,20 @@
+<header>
+  <section id="logo">
+    <img src="/images/logo.svg" alt="SuperCollider" style="width: 32px; height: 32px">
+    {{ site.title }}
+  </section>
+  <nav>
+    <ul>
+      {%- assign pages_list = site.pages -%}
+      {%- assign group = 'navigation' -%}
+      {%- include JB/pages_list -%}
+      <li><a href="http://doc.sccode.org/">Docs</a></li>
+      <li>
+        <iframe src="https://ghbtns.com/github-btn.html?user=supercollider&amp;repo=supercollider&amp;type=watch&amp;count=true&amp;size=small" allowtransparency="true" frameborder="0" scrolling="0" width="105px" height="30px">watch</iframe>
+      </li>
+      <li>
+        <iframe src="https://ghbtns.com/github-btn.html?user=supercollider&amp;repo=supercollider&amp;type=fork&amp;count=true&amp;size=small" allowtransparency="true" frameborder="0" scrolling="0" width="105px" height="30px">fork</iframe>
+      </li>
+    </ul>
+  </nav>
+</header>
