@@ -3,7 +3,12 @@
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: ["README.md", "Rakefile"]
+
+# Github flavoured markdown
+markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
 
 # sass directory
 sass:

@@ -26,9 +26,8 @@ SuperCollider was developed by James McCartney and originally released in 1996. 
 
 - [Code examples](/examples/supercollider-code-examples.html)
 
-<div class="row-fluid main-page-examples">
 
-{% highlight javascript %}
+```javascript
 // modulate a sine frequency and a noise amplitude with another sine
 // whose frequency depends on the horizontal mouse pointer position
 {
@@ -37,10 +36,9 @@ SuperCollider was developed by James McCartney and originally released in 1996. 
         +
         PinkNoise.ar(0.1 * x + 0.1)
 }.play;
-{% endhighlight %}
+```
 
-
-{% highlight javascript %}
+```javascript
 // 60Hz Gabber Rave 1995
 Server.default.boot;
 
@@ -96,10 +94,7 @@ Ppar([
     ])
 ]).play(TempoClock(210 / 60));
 )
-{% endhighlight %}
-
-</div>
-
+```
 
 ---
 
