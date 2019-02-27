@@ -1,0 +1,18 @@
+// screen sizes
+$max-width: 900px;
+$tablet-screen: 768px;
+$desktop-screen: 1024px;
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans|IBM+Plex+Serif');
+$base-font-family: 'IBM Plex Serif', serif;
+$heading-font-family:'IBM Plex Sans', sans-serif;
+$code-font-family: 'IBM Plex Mono', monospace;
+
+// Line height
+$base-line-height: 1.5;
+$heading-line-height: 1.2;
+
+// colors
+$base-font-color: #000;
+$background-color: #fff;

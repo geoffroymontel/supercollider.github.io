@@ -1,24 +1,16 @@
-$max-width: 900px;
-$tablet-screen: 768px;
-$desktop-screen: 1024px;
-
-@mixin outer-container() {
-  margin: 0 auto;
-  max-width: $max-width;
-}
-
-@mixin media($width) {
-  @media screen and (min-width: $width) {
-    @content;
-  }
-}
-
 body {
   margin: 0 10px;
 }
 
+header, footer {
+  @include outer-container;
+}
+
 section#container {
   @include outer-container;
-
   padding: 2em 0 0 0;
+}
+
+code {
+  white-space: pre-wrap; /* force long lines to break */  
 }

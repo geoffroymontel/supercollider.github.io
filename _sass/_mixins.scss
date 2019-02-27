@@ -1,0 +1,10 @@
+@mixin outer-container() {
+  margin: 0 auto;
+  max-width: $max-width;
+}
+
+@mixin media($width) {
+  @media screen and (min-width: $width) {
+    @content;
+  }
+}
