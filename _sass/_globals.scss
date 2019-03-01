@@ -14,3 +14,7 @@ section#container {
 code {
   white-space: pre-wrap; /* force long lines to break */  
 }
+
+a {
+  color: $action-color;
+}

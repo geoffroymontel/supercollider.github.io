@@ -1,0 +1,19 @@
+header {
+  nav {
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        display: inline-block;
+        font-size: 1em;
+        padding: 0 0.4em 0 0.4em;
+      }
+
+      li#logo img {
+        width: 300px;
+      }
+    }
+  }
+}
