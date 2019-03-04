@@ -3,10 +3,12 @@
 # only Main files contain this front matter, not partials.
 ---
 
-@import "normalize";
-@import "variables";
-@import "mixins";
-@import "globals";
-@import "typography";
-@import "rouge";
+@import "00_normalize";
+@import "01_variables";
+@import "02_colors";
+@import "03_typography";
+@import "04_mixins";
+@import "05_globals";
+@import "code_highlighting";
 @import "header";
+@import "front";

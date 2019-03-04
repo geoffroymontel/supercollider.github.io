@@ -1,0 +1,45 @@
+section#logo {
+  @include outer-container;
+  padding: 3rem 1rem;
+  background-color: $color5;
+  text-align: center;
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+
+  p {
+    margin: 0;
+    font-family: $heading-font-family;
+    font-size: 3em;
+    letter-spacing: 0.3em;
+  }
+
+  span#super {
+    font-weight: 300;
+    color: $color4;
+  }
+
+  span#collider {
+    font-weight: 400;
+    color: $color1;
+  }
+}
+
+section#whatissc {
+  @include outer-container;
+  background-color: $color1;
+  color: $color2;
+  padding: 3rem 1rem 1.5rem 1rem;
+
+  p {
+    margin: 0;
+    padding: 0 0 1.5rem 0;
+    text-align: right;
+    font-size: 3em;
+    font-family: $heading-font-family;
+    font-weight: 200;
+  }
+}

@@ -1,20 +1,17 @@
 body {
-  margin: 0 10px;
-}
-
-header, footer {
-  @include outer-container;
+  margin: 0;
+  background-color: $color3;
 }
 
 section#container {
   @include outer-container;
-  padding: 2em 0 0 0;
 }
 
 code {
   white-space: pre-wrap; /* force long lines to break */  
 }
 
-a {
-  color: $action-color;
+a, a:visited, a:hover {
+  color: $links-color;
+  text-decoration: none;
 }
