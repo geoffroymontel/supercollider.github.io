@@ -16,8 +16,15 @@ header {
 
       li {
         display: inline-block;
-        font-size: 1.25em;
+        vertical-align: middle;
+        font-size: 1em;
         padding: 0.5em 1em 0.5em 0em;
+
+        img {
+          width: 1em;
+          position: relative;
+          bottom: -3px;
+        }
       }
     }
   }
