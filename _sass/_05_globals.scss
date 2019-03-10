@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: $background-color;
+  color: $base-font-color;
 }
 
 section#container {
@@ -8,10 +9,36 @@ section#container {
 }
 
 code {
-  white-space: pre-wrap; /* force long lines to break */  
+  white-space: pre-wrap; /* force long lines to break */
 }
 
 a, a:visited, a:hover {
   color: $links-color;
   text-decoration: none;
+  cursor: pointer;
+}
+
+a.button {
+  font-family: $heading-font-family;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $base-font-color;
+  background-color: $links-color;
+  appearance: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  padding: 1em 2em;
+  transition: background-color 0.2s ease-in-out;
+  
+  &:hover {
+    background-color: $base-font-color;
+    color: $links-color;
+  }
 }

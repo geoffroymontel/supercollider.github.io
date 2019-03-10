@@ -17,6 +17,18 @@ h1, h2, h3, h4, h5, h6 {
   line-height: $heading-line-height;
 }
 
+h1 {
+  font-size: golden-ratio(3) * 1em;
+}
+
+h2 {
+  font-size: golden-ratio(2) * 1em;
+}
+
+h3 {
+  font-size: golden-ratio(1) * 1em;
+}
+
 code {
   font-family: $code-font-family;
 }

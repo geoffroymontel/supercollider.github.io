@@ -6,8 +6,14 @@ header {
     a, a:hover, a:visited {
       text-decoration: none;
       color: $header-font-color;
-      font-weight: 200;
+      font-weight: 300;
       letter-spacing: 0.1em;
+      border-bottom: 1px solid transparent;    
+      transition: all .2s ease-in;
+    }
+
+    a:hover {
+      border-bottom: 1px solid $header-font-color;    
     }
 
     ul {
@@ -18,13 +24,17 @@ header {
         display: inline-block;
         vertical-align: middle;
         font-size: 1em;
-        padding: 0.5em 1em 0.5em 0em;
+        padding: 1em 1.5em 1em 0em;
 
         img {
-          width: 1em;
+          width: 2.5em;
           position: relative;
-          bottom: -3px;
+          bottom: -4px;
         }
+      }
+
+      li:first-child a:hover {
+        border-bottom: 1px solid transparent;
       }
     }
   }

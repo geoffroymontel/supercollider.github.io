@@ -10,10 +10,9 @@ section#logo {
     max-width: 300px;
   }
 
-  p {
+  h2 {
     margin: 0;
     font-family: $heading-font-family;
-    font-size: 3em;
     letter-spacing: 0.3em;
   }
 
@@ -26,6 +25,10 @@ section#logo {
     font-weight: 400;
     color: $color1;
   }
+
+  a.button {
+    margin-top: 2em;
+  }
 }
 
 section#whatissc {
@@ -34,11 +37,10 @@ section#whatissc {
   color: $color2;
   padding: 3rem 1rem 1.5rem 1rem;
 
-  p {
+  h2 {
     margin: 0;
     padding: 0 0 1.5rem 0;
-    text-align: right;
-    font-size: 3em;
+    text-align: left;
     font-family: $heading-font-family;
     font-weight: 200;
   }
