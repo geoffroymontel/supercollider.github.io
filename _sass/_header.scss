@@ -1,6 +1,6 @@
 header {
-  @include outer-container;
   background-color: $header-background-color;
+  padding: 0 1em;
 
   nav {
     a, a:hover, a:visited {

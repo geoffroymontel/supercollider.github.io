@@ -25,11 +25,13 @@
   </head>
 
   <body>
-    {% include header.html %}
+    <div id="outer-container">
+      {% include header.html %}
 
-    {{ content }}
-
-    {% include footer.html %}
-    {% include JB/analytics %}
+      {{ content }}
+  
+      {% include footer.html %}
+      {% include JB/analytics %}    
+    </div>
   </body>
 </html>

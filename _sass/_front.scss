@@ -1,6 +1,5 @@
 section#logo {
-  @include outer-container;
-  padding: 3rem 1rem;
+  padding: 3rem 0;
   background-color: $color5;
   text-align: center;
 
@@ -32,16 +31,28 @@ section#logo {
 }
 
 section#whatissc {
-  @include outer-container;
   background-color: $color1;
   color: $color2;
-  padding: 3rem 1rem 1.5rem 1rem;
+  padding: 3rem;
 
-  h2 {
+  p {
+    font-size: golden-ratio(2) * 1em;
     margin: 0;
     padding: 0 0 1.5rem 0;
-    text-align: left;
+    text-align: right;
     font-family: $heading-font-family;
     font-weight: 200;
   }
+}
+
+section#learn {
+  background-color: $color3;
+  color: $color1;
+  padding: 2rem 3rem;
+}
+
+section#wip {
+  background-color: black;
+  color: white;
+  padding: 2rem 3rem;
 }
