@@ -27,6 +27,12 @@ section#logo {
 
   a.button {
     margin-top: 2em;
+
+    i.fa-arrow-circle-down {
+      font-size: 2rem;
+      vertical-align: -20%;
+      padding-right: 0.5rem;
+    }
   }
 }
 
@@ -38,7 +44,6 @@ section#whatissc {
   p {
     font-size: golden-ratio(2) * 1em;
     margin: 0;
-    padding: 0 0 1.5rem 0;
     text-align: right;
     font-family: $heading-font-family;
     font-weight: 200;
@@ -55,4 +60,18 @@ section#wip {
   background-color: black;
   color: white;
   padding: 2rem 3rem;
+}
+
+div.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: space-between;
+
+  div.grid-element {
+    width: 30%;
+
+    img {
+      width: 100%;
+    }
+  }
 }
