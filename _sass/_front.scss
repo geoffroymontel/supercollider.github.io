@@ -65,13 +65,17 @@ section#wip {
 div.grid {
   display: flex;
   flex-wrap: wrap;
-  flex-flow: space-between;
 
   div.grid-element {
     width: 30%;
+    margin-right: 3.33%;
 
     img {
       width: 100%;
+    }
+
+    &:nth-child(3n+3) {
+      margin-right: 0%;
     }
   }
 }
