@@ -27,11 +27,11 @@ which will use the Gemfile found in that directory and will install an isolated 
 
 Now run `Jekyll`:
 
-    jekyll serve --watch
+    bundle exec jekyll serve --watch
 
 or:
 
-    jekyll help
+    bundle exec jekyll help
     
 Then, in your browser:
 
